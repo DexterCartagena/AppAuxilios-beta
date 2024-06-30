@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Principal">
+        <menu>
+            <item
+                android:id="@+id/consejosyguia"
+                android:icon="@drawable/ic_consejo"
+                android:title="Guia y consejos">
+            </item>
+            <item
+                android:id="@+id/medicalservice"
+                android:icon="@drawable/ic_medical_services"
+                android:title="Primeros Auxilios basicos">
+            </item>
+            <item
+                android:id="@+id/kitdomestico"
+                android:icon="@drawable/ic_kit_domestico"
+                android:title="Kit Domestico">
+            </item>
+            <item
+                android:id="@+id/googlemap"
+                android:icon="@drawable/ic_googlemap"
+                android:title="Hospitales cercanos">
+            </item>
+            <item
+                android:id="@+id/llamadas"
+                android:icon="@drawable/ic_call"
+                android:title="Numeros telefonicos">
+            </item>
+        </menu>
+    </item>
+
+    <item android:title="Secundario">
+        <menu>
+            <item
+                android:id="@+id/comparte"
+                android:icon="@drawable/ic_comparte"
+                android:title="Comparte">
+            </item>
+            <item
+                android:id="@+id/acercade"
+                android:icon="@drawable/ic_acercade_24"
+                android:title="Acerca De">
+            </item>
+        </menu>
+    </item>
+
+
+</menu>
